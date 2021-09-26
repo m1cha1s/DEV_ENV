@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  env:
+    build: ./ENV/
+    ports:
+      - "5555:22"
